@@ -1,0 +1,119 @@
+
+
+html, :root {
+  box-sizing: border-box;
+  font-family: Slate W01 Bk,Helvetica,Arial,sans-serif!important;
+  font-size: 20px;
+  color: #444;
+  overflow-x: hidden;
+  height: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.page{
+  height:100vh;
+  width: 100%;
+
+  display:flex;
+  flex-direction: row;
+ 
+}
+.semi-half{
+  width:50%;
+  height: 100%;
+ 
+}
+.inner{
+  margin-left:10%;
+  margin-top: 25%;
+}
+.info{
+  margin-top:22%
+}
+
+.half{
+  width:50%;
+  
+  background-color:blueviolet;
+}
+.secondblock{
+  color:white;
+  height:100%;
+  margin-left: 10%;
+  margin-top: 25%;
+}
+.halfbelow{
+  margin-top: 18%;
+}
+input[type=radio].white, input[type=checkbox].white {
+
+  background: none;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  transition: all .15s ease;
+  margin-right:10px;
+}
+input[type=radio] {
+  border-radius: 50%;
+}
+label {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 8px 0;
+  display: block;
+  cursor: pointer;
+  overflow: hidden;
+}
+ul {
+ 
+  list-style-type: none;
+  
+}
+.white
+{
+  height:20px;
+  width:20px;
+
+}
+.btn.btn-white {
+  border-color: #fff;
+  color: rgba(255,255,255,.75);
+  background-color: transparent;
+}
+.btn {
+  display: inline-block;
+  padding: 12px 32px;
+  font-size: 18px;
+  font-family: Slate W01 Medium,Helvetica,Arial,sans-serif!important;
+  line-height: 1!important;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid currentColor;
+  border-radius: 50px;
+  cursor: pointer;
+  
+  transition: all .25s ease-in-out;
+}
+
+
+* {
+  margin: 0;
+  position: relative;
+  box-sizing: border-box;
+}
+.overlay-scale {
+  opacity: 0;
+  -webkit-transform: translateZ(0);
+  transform: scale(.92);
+  transition: transform .4s cubic-bezier(.2,1,.4,1.02),opacity .4s ease;
+  will-change: transform,opacity;
+}
+.overlay-name{
+  font-weight: 700;
+  font-size: 56px;
+}
+.top{
+  height:50%
+}
